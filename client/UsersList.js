@@ -12,8 +12,6 @@ const UsersList = props => {
 			</ul>
 		</div>
 	);
-	const users = props.users.map((user, index) => <User key={index} name={user.name} />);
-	return <ul>{users}</ul>
 }
 
 export default UsersList;
